@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: lightskyblue;
+}
+
+
+section {
+    background-color: white;
+margin: 80px;
+  border: red 5px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+height: 90%;
+}
+
+
+div {
+    background-color: blue;
+}
+
+.div1 {
+    margin: 20px;
+    text-align:center;
+    
+}
+
+.div2 {
+    
+    width: 70%;
+    height: 60%;
+ align-self: center;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+h1
+{
+    color: white;
+
+    font-size: 2rem;
+  
+}
+
+.text2 {
+    
+ 
+}

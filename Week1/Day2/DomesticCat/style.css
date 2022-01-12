@@ -1,0 +1,81 @@
+*
+{
+	background-color: #DED9C4;
+	
+}
+
+body
+{
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+h1
+{
+	color: #45526C;
+}
+
+
+h2
+{
+	color: #5AA897;
+
+}
+
+img
+{
+	height: 400px;
+	height: 400px;
+	border:solid #45526C 6px;
+	padding: 20px;
+	margin: 20px;
+
+
+}
+
+#mediaCats {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+#differtext
+{border: solid 2px red;
+color: red; 
+	width: 80%;
+	margin: auto;
+text-align:center;
+
+}
+
+
+
+
+table, th, tr, td {
+	  table-layout: fixed;
+	  width: 80%;
+	  border: solid 2px black;
+	     
+	margin: auto;
+	
+
+
+}
+
+td
+{
+	padding:10px;
+word-wrap: break-word;
+text-align: center;
+
+}
+
+#mediaLions
+{
+	text-align: center;
+	margin:auto;
+}
+

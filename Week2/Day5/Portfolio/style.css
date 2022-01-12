@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.body, html {
+    padding: 0;
+    margin: 0;
+ 
+}
+
+
+
+
+#welcome {
+    height: 110vh;
+    background-image: url(./flowers.jpg);
+    background-size: cover;
+    background-position: 80% 69%;
+}
+
+
+.nav-link {
+    color: black;
+}
+
+
+#hello h1 {
+    font-size: 10rem;
+    font-family: 'Caveat', cursive;
+
+}
+
+
+#hello-text {
+    font-size: 4rem;
+    font-family: 'Caveat', cursive;
+}
+
+
+
+#title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.text-in-page {
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    text-align: center;
+    padding: 13px;
+}
+
+
+#or {
+border-radius: 50%;
+width: 200px;
+height: 200PX;
+  }
+
+
+.vl {
+    border-left: 6px solid #6998AB;
+    height: 220px;
+    width: 10px
+
+}
+
+
+ 
+.card {
+    border-bottom: 10px solid #6998AB;
+}
+
+#social {
+    background-color: #E2C2B9;
+}
+
+#btn-social {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+      }
+
+
+
+footer {
+    background-color: #6998AB;
+}

@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+
+    background-color: white;
+    height: 100VH;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 60px 60px 60px 60px;
+    grid-gap: 20px 30px;
+    grid-template-areas: ;
+
+
+}
+
+
+div {
+    background-color: lightpink;
+    border: black 1PX solid;
+}
+
+
+
+.wrapper :last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.blue {
+    grid-area: blue;
+}
+
+.pink {
+    grid-area: pink;
+}
