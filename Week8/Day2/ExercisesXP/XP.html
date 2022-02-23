@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XP 14/2/22</title>
+</head>
+<body>
+
+    <!--
+    <form action="./XP.html" method="GET">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" value="">
+        <br>
+        <br>
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" rows="8" cols="35"></textarea>
+        <br>
+        <br>
+        <label for="send"></label>
+        <input type="submit" value="send">
+
+        
+
+    </form>
+
+
+ 
+    
+
+
+Exercise 1 : HTML Form
+    3.Where will the sent data appear? 
+
+Exercise 2 : HTML Form #2
+Where will the sent data appear? in developer tools -> Network
+
+
+
+
+
+<form action="./XP.html" method="POST">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" value="">
+    <br>
+    <br>
+    <label for="comments">Comments</label><br>
+    <textarea name="comments" rows="8" cols="35"></textarea>
+    <br>
+    <br>
+    <label for="send"></label>
+    <input type="submit" value="send">
+
+    
+
+</form>
+-->
+
+<script>
+    //Exercise 3 : JSON Mario
+let marioGame = {
+    detail : "An amazing game!",
+    characters : {
+        mario : {
+          description:"Small and jumpy. Likes princesses.",
+          height: 10,
+          weight: 3,
+          speed: 12,
+        },
+        bowser : {
+          description: "Big and green, Hates princesses.",
+          height: 16,
+          weight: 6,
+          speed: 4,
+        },
+        princessPeach : {
+          description: "Beautiful princess.",
+          height: 12,
+          weight: 2,
+          speed: 2,
+        }
+    },
+  }
+
+
+  //1.Convert this JS object into a JSON object. What happens to the nested objects?
+  let marioGameJSON = JSON.stringify(marioGame);
+  console.log(marioGameJSON);
+  //outcome:
+  //{"detail":"An amazing game!","characters":{"mario":{"description":"Small and jumpy. Likes princesses.","height":10,"weight":3,"speed":12},"bowser":{"description":"Big and green, Hates princesses.","height":16,"weight":6,"speed":4},"princessPeach":{"description":"Beautiful princess.","height":12,"weight":2,"speed":2}}}
+
+
+  //2.Convert and pretty print this JS object into a JSON object. Hint : Check out the JSON lesson on the platform.
+  let marioGameJSON = JSON.stringify(marioGame, null, 1);
+  console.log(marioGameJSON);
+
+  //3.Use your web inspector to add a breakpoint. Check the values of the JSON object in the debugger.
+
+</script>
+
+</body>
+</html>
